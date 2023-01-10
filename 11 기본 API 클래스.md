@@ -11,7 +11,7 @@ java.lang 패키지 내 ==**주요 클래스**== 및 용도
 
 
 ==**자바 API 문서 모음**==
-![]https://docs.oracle.com/en/java/javae/index.html
+https://docs.oracle.com/en/java/javae/index.html
 -  주소 타고 접속
 	1. \[All Modules\] 목록에서 java.base를 찾아 접속
 	2. \[Packages] 목록에서 java.lang 접속
@@ -268,7 +268,7 @@ public static void main(String[] args) throws ClassNotFoundException, IOExceptio
 |:--------:|:-------------------------------------------------------:| --------------------------------------------------------------- |
 |   char   |                    `charAt(int idx)`                    | 특정 위치의 문자를 리턴                                         |
 | boolean  |                `equals(Object anObject)`                | 두 문자열을 비교                                                |
-| byte\[]  |                      `getBytes[]`                       | byte\의 배열로 리턴                                             |
+| byte\[]  |                      `getBytes[]`                       | byte의 배열로 리턴                                             |
 | byte\[]  |               `getBytes(Charset charset)`               | 주어진 문자셋으로 인코딩한 byte\[]로 리턴                       |
 |   int    |                  `indexOf(String str)`                  | 문자열 내에서 주어진 문자열의 위치를 리턴                       |
 |   int    |                       `length()`                        | 총 문자의 수를 리턴                                             |
