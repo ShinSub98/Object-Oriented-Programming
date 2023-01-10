@@ -272,7 +272,7 @@ public static void main(String[] args) throws ClassNotFoundException, IOExceptio
 | byte\[]  |               `getBytes(Charset charset)`               | 주어진 문자셋으로 인코딩한 byte\[]로 리턴                       |
 |   int    |                  `indexOf(String str)`                  | 문자열 내에서 주어진 문자열의 위치를 리턴                       |
 |   int    |                       `length()`                        | 총 문자의 수를 리턴                                             |
-|  String  | `replace(CharSequence target, CarSequence replacement)` | target 부분을 replacement로 바꾼 새로운 문자열을 리턴         |
+|  String  | `replace(CharSequence target, CharSequence replacement)` | target 부분을 replacement로 바꾼 새로운 문자열을 리턴         |
 |  String  |               `substring(int beginIndex)`               | beginIndex 위치에서 끝까지 잘라낸 새로운 문자열을 리턴          |
 |  String  |        `substring(int beginIndex, int endIndex)`        | beginIndex 위치에서 endIndex 전까지 잘라낸 새로운 문자열을 리턴 |
 |  String  |                     `toLowerCase()`                     | 소문자로 변환하여 리턴                                          |
